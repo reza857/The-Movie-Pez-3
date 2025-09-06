@@ -1,4 +1,5 @@
 {
+  "homepage": "https://reza857.github.io/The-Movie-Pez-3",
   "name": "themoviepez",
   "main": "expo-router/entry",
   "version": "1.0.0",
@@ -8,7 +9,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "build": "expo export --platform web",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
